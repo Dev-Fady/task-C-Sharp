@@ -16,6 +16,7 @@
 
             if (int.TryParse(ageOrDate, out int number))
             {
+
                 if (ageOrDate.Length <= 3)
                 {
                     age = number;
